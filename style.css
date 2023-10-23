@@ -329,9 +329,15 @@ footer{
     position: relative;
     background: #16697A; 
 }
+footer .social{
+    display: flex;
+    justify-content: space-around;
+
+}
+
 footer .email {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 1em;
     margin: 5px 0;
 }
@@ -353,7 +359,7 @@ footer .email p:hover{
 }
 footer .fb{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 1em;
     margin: 5px 0;
 }
@@ -376,7 +382,7 @@ footer .fb p:hover{
 
 footer .yt{
     display:flex; 
-    align-items:center; 
+    /* align-items:center;  */
     gap:.50em; 
     margin: 5px 0;
 }
@@ -403,7 +409,7 @@ footer .yt p:hover {
 
 footer .col{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 footer .col dl{
     display: block;
@@ -431,8 +437,8 @@ footer .col dd a:hover{
 footer .footlogo{
     display: inline;
     position:absolute;
-    bottom: 0;
-    right: 25px;
+    bottom: 15px;
+    left: 35px;
     height: 100px;
 }
 footer .footlogo img{
