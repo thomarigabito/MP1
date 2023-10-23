@@ -7,9 +7,11 @@
 
 .housemodel{
     min-height: fit-content;
+    min-width: 100%;
     background-color: antiquewhite;
     padding: 20px;
     justify-content: space-between;
+    align-items: center;
     gap: 2em;    
 }
 .housemodel .border1{
@@ -45,6 +47,7 @@
     background-image: url('img/family2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .carousels {
