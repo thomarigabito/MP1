@@ -78,7 +78,7 @@ nav .menu .dropdown:hover .dropbtn {
 nav .mbar{
     position: absolute;
     right: 35px;
-    display: inline;
+    display: none;
 }
 
 nav .logoname{
