@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Opportunity</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito&family=Irish+Grover&family=Lato:ital,wght@0,400;1,300&family=Mouse+Memoirs&family=Pacifico&family=Pixelify+Sans&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="col">
+        <div class="mbar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+            <div class="logoname">
+                <h1>Home Opportunity</h1>
+            </div>
+
+            <div class="menu">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-sm dropbtn"><a href="index.html">Home</a></button>
+                </div>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-sm dropbtn"><a href="about.html">About</a></button>
+                    <div class="dropdown-content">
+                        <a href="#">HOUSE</a>
+                        <a href="#">LOT</a>
+                        <a href="#">HOUSE & LOT</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-sm dropbtn"><a href="housemodel.html">Model House</a></button>
+                    <div class="dropdown-content">
+                        <a href="calmar">Calmar</a>
+                        <a href="#">ROW HOUSE</a>
+                        <a href="#">BUNGALOW</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button type="button" class="btn btn-sm dropbtn" data-bs-toggle="modal" data-bs-target="#myIquire" >Inquire Now</button>
+                </div>
+
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropbtn" data-bs-toggle="modal" data-bs-target="#myRegform">
+                        Sign Up
+                    </button>
+                </div>         
+    </nav>
+    
+ 
+   <!--Modal Registration form --> 
+    <div class="modal" id="myRegform">
+        <div class="modal-dialog">
+            <div class="modal-content">
+    
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Sign up</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+    
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="index.html">
+                        <p class="title">Registration Form</p>
+                    <div class="row">
+                        <div class="col firstname">
+                            <label for="text" class="form-label">First Name</label><br>
+                            <input type="text" class="form-control" name="firstname" placeholder="Enter first name" required>
+                            <br>
+                        </div>
+    
+                        <div class="col lastname">
+                            <label for="text" class="form-label">Last Name:</label><br>
+                            <input type="text" class="form-control" name="lastname" placeholder="Enter last name" required>
+                            <br>
+                        </div>
+                    </div>
+    
+                        <div class="email">
+                            <label for="email" class="form-label">Email:</label><br>
+                            <input type="email" class="form-control" name="email" placeholder="Enter email" required>
+                            <br>
+                        </div>
+    
+                        <div class="password">
+                            <label for="password" class="form-label">Password:</label><br>
+                            <input type="password" class="form-control" name="password" placeholder="Enter password" required>
+                            <br>
+                        </div>
+                        <div class="password">
+                            <label for="password" class="form-label">Confirm Password:</label><br>
+                            <input type="password" class="form-control" name="password" placeholder="Enter password" required>
+                            <br>
+                        </div>
+                        <div class="login">
+                            <p>Already have account:</p>
+                            <a href="#">Log in</a>
+
+                        </div>
+                        <div>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                        </div>
+
+                    </form>
+                </div>
+    
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myIquire">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Inquiries</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>    
+                </div>
+
+                <div class="modal-body">
+                    <form action="" class="was-validated">
+                        <div class="row">
+                            <div class="col">
+                                <label for="text" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstname" placeholder="Enter first name" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please fill out this field</div>
+                            </div>
+                            <div class="col">
+                                <label for="text" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastname" placeholder="Enter Last name" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please fill out this field</div>
+                            </div>
+                        </div>
+                            <div>
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please fill out this field</div>
+                            </div>
+                            <div>
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="pass" placeholder="Enter password" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please fill out this field</div>
+                            </div>
+
+                            <div>
+                                <label for="date" class="form-label">Appointment Date</label>
+                                <input type="date" class="form-control" id="date" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please fill out this field</div>
+                            </div>
+
+                            <div>
+                                <form>
+                                    <label for="select" class="form-label">Unit Type</label>
+                                    <select class="form-select" id="sel1" name="sellist1">
+                                        <option> Select</option>
+                                        <option> Bungalow</option>
+                                        <option> Single Detached</option>
+                                        <option> Townhome</option>
+                                    </select>
+                                </form>
+                            </div>
+
+                            <div>
+                                <form>
+                                    <label for="select" class="form-label">Select City</label>
+                                    <select class="form-select" id="sel2" name="sellist2">
+                                        <option> Select</option>
+                                        <option> Lucena City</option>
+                                        <option> Sariaya</option>
+                                        <option> Tayabas</option>
+                                        <option> Lucban</option>
+                                    </select>
+                                </form>
+                            </div>
+
+                            <div class="row mt-2" >
+                                <div class="col-9">
+                                    <button type="submit" class="btn btn-sm btn-outline-primary mt-1">Submit</button>
+                                    <button type="reset" class="btn btn-sm btn-outline-danger mt-1">Reset</button>
+                                </div>
+                                <div class="col form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" name="remember">I agree
+                                    </label>
+                                </div>
+
+                            </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p>Thank You for Inquiring</p>
+                </div>
+            </div>
+        </div>
+    </div>      
+    
+        <div class="container-fluid front" id="start">
+            <div class="row">
+                <div class="col logo">
+                    <div>
+                        <img class="logos"  src="img/Hom.png" alt="">
+                    </div>
+                    <!-- <img src="img/antipolo-1.jfif" alt=""> -->
+                    <h1 class="dream">Unlock Your Dream Home Today</h1>
+                </div>
+                 
+                <div class="col " style="text-align: center; justify-content: center; margin-top: 35px; display: block;">
+                    <img src="img/family1.jpg" style="height: 500px; border-radius: 25px;">
+                </div>
+            </div>
+        </div>
+    <!---Carousel Section1 Block1-->
+        <div class="container-fluid cont-carousel">
+            <section class="col section1">
+                    <div class="carousel">
+                        <div class="w3-content w3-section carousels">
+                            <!-- <img class="mySlides" src="img/b8edb5062fb0e54fa29de6de7349702e.jpg" style="width:100% height: inherit;"> -->
+                            <img class="mySlides" src="img/e279c8a3cb5ec960a22e14228e7ff214.jpg">
+                            <img class="mySlides" src="img/192295b3136ae7a49827ceabfbcbf1ca.jpg" >
+                        </div>
+                    </div>
+                    <div class="block1">
+                        <article class="intro">
+                            <div>
+                                <h1 id="title">Welcome to Your Gateway to Exceptional Real Estate</h1>
+                            </div>
+                            <div>
+                                <p id="sub">Unlock Your Dream Home Today</p>
+                            </div>
+                            <div class="row">
+                                <div>
+                                    <p>We believe that a home is not just a place; it's a reflection of your aspirations.</p>
+                                </div>
+                        </article>
+                    </div>  
+            </section>
+        </div>
+
+    <!----Section2---->
+        <div class="container-fluid seccontainer">
+
+            <section class="container-fluid section2">
+                    <div class="container-fluid ssections2 ">
+                        <div class="mdlhouse">
+                            <h1>MODEL HOUSE</h1>
+                        </div>
+
+                        <div class="block2">
+
+                            <div class="House">
+                                <div class="card">
+                                    <img class="card-img-top" src="Model House/Amaia Escape/model1.jpg" alt="Card image" style="height: 250px;">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Model House 1</h4>
+                                        
+                                        <p class="card-text">Subdivision: Amaia Escape</p>
+                                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myIquire">Book now</a>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <img class="card-img-top" src="Model House/Amaia Escape/model2.jpg" alt="Card image" style="height: 250px;">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Model House 3</h4>
+                                        <p class="card-text">Subdivision: Amaia Escape</p>
+                                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myIquire">Book now</a>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <img class="card-img-top" src="" alt="Card image" style="height: 250px;">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Sample Image</h4>
+                                        <p class="card-text">Some example text.</p>
+                                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myIquire">Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="Developer">
+                                <div class="card">
+                                    <img class="card-img-top" src="Model House/Amaia Escape/model4.jpg" alt="Card image" style="height: 250px;">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Model House 2</h4>
+                                        <p class="card-text">Subdivision: Amaia Escape </p>
+                                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myIquire">Book now</a>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <img class="card-img-top" src="Model House/Amaia Escape/model3.jpg" alt="Card image" style="height: 250px;">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Model House 4</h4>
+                                        <p class="card-text">Subdivision: Amaia Escape</p>
+                                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myIquire">Book now</a>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <img class="card-img-top" src="img/b8edb5062fb0e54fa29de6de7349702e.jpg" alt="Card image" style="height: 250px;">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Model House 4</h4>
+                                        <p class="card-text">Subdivision: Amaia Escape</p>
+                                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myIquire">Book now</a>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                         </div>
+                    </div>
+            </section>
+        </div>
+
+    <footer>
+        <div class="footlogo"><a href="#start"><img src="img/Hom.png" alt="Logo"></a></div>
+
+        <div class="container-fluid footers" style="padding:25px; border: 0;">
+            <div class="row" style= "height:fit-content; ">
+
+                <div class="col-2 social" >
+                    <div class="email">
+                        <a id="email" href="#"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="#" style="text-decoration: none;"><p>Email: </p></a>
+                    </div>
+
+                    <div class="fb">
+                        <a id="fb" href="#"><i class="fa-brands fa-facebook-f" ></i></a>
+                        <a href="#" style="text-decoration: none;"><p>Facebook Page </p></a>
+                    </div>
+
+                    <div class="yt" >
+                        <a id="yt" href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" style="text-decoration: none;"><p>Subcribe</p></a>
+                    </div>
+
+                </div>
+
+
+                <div class="col">
+                    <div>
+                    <dl >
+                        <dt >About</dt>
+                        <dd><a  href="#">About as</a> </dd>
+                        <dd><a href="#">Contact</a> </dd>
+                        <dd class="break" style="padding:8px"></dd>
+                    </dl>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>Homebuyer's Guide</dd>
+                            <dd><a href="#"> Tour Virtual</a></dd>
+                            <dd><a href="#">Buyers Guide</a></dd>
+                            <dd><a href="#">Book Appointment</a></dd>
+                            <dd><a href="#">Online Reseve Online</a></dd>
+                        </dl>
+                    </div>
+
+                    <div>
+                        <dl >
+                            <dt >Seller's Guidline</dt>
+                            <dd><a href="#"> Seller's Hub</a></dd>
+                            <dd><a href="#"> Broker Seller</a></dd>
+                            <dd><a href="#"> Sales</a></dd>
+                            <dd class="break" style="padding:5px"></dd>
+                        </dl>
+                    </div>
+
+                    <div>
+                        <dl>
+                            <dt>Explore Homes</dt>
+                            <dd><a href="#"> House Model</a></dd>
+                            <dd><a href="#"> House and Lot</a></dd>
+                            <dd><a href="#"> Condominium</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            
+                               
+            </div>
+        </div>
+    </footer>
+
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+    })
+
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 5000); // Change image every 2 seconds
+    }
+</script>
+
+</body>
+
+</html>
+
+
+        

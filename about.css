@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Gabarito;
+    box-sizing: border-box;
+}
+
+.housemodel{
+    min-height: fit-content;
+    background-color: antiquewhite;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 2em;    
+}
+.housemodel .border1{
+    padding: 20px;
+    border-top: solid 1px;
+}
+
+.housemodel .developer{
+    padding:10px;
+    background-color: #16697A;
+    margin-bottom: 10px;
+}
+
+.housemodel .model{
+    display: flex;
+    flex-grow: 1;  
+}
+.model1 .cards{
+    padding-bottom: 10px;
+}
+.cards .cards{
+    padding: 5px;
+    width: 400px;
+}
