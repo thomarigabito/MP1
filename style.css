@@ -166,6 +166,24 @@ nav .logoname h1{
     background-color: #BD897E;
 }
 
+.carousel {
+    justify-content: center;
+    margin: 0 auto;
+    display: inline;
+    height: fit-content;
+    width: fit-content;
+}
+
+.carousel .carousels {
+    margin: 0 auto;
+    max-width: 500px
+}
+
+.carousel .carousels img {
+    margin: 0 auto;
+    width: 100%;
+}
+
 .section1 {
     display: block;
     position: relative;
@@ -176,21 +194,7 @@ nav .logoname h1{
 /* ------CAROUSEL-------- */
 
 
-.carousel{
-    justify-content: center;
-    margin: 0 auto;
-    display: inline;
-    height: fit-content;
-    width: fit-content;
-}
-.carousel .carousels{
-    margin: 0 auto;
-    max-width: 500px
-}
-.carousel .carousels img {
-    margin: 0 auto;
-    width: 100%;
-}
+
 
 
 

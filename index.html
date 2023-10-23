@@ -182,7 +182,7 @@
                             <div>
                                 <form>
                                     <label for="select" class="form-label">Unit Type</label>
-                                    <select class="form-select" id="sel1" name="sellist1">
+                                    <select class="form-select" id="sel1" name="sellist1" required>
                                         <option> Select</option>
                                         <option> Bungalow</option>
                                         <option> Single Detached</option>
@@ -194,7 +194,7 @@
                             <div>
                                 <form>
                                     <label for="select" class="form-label">Select City</label>
-                                    <select class="form-select" id="sel2" name="sellist2">
+                                    <select class="form-select" id="sel2" name="sellist2" required>
                                         <option> Select</option>
                                         <option> Lucena City</option>
                                         <option> Sariaya</option>
@@ -432,10 +432,10 @@
                 }, false)
             })
     })
-
+</script>
+<script>
     var myIndex = 0;
     carousel();
-
     function carousel() {
         var i;
         var x = document.getElementsByClassName("mySlides");

@@ -34,3 +34,46 @@
     padding: 5px;
     width: 400px;
 }
+
+
+.cont-carousels {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 95vh;
+    padding: 30px;
+    background-image: url('img/family2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousels {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: inline;
+}
+
+.carousels .carousels1{
+    margin: 0 auto;
+   
+}
+
+.carousels .carousels1 img {
+    margin: 0 auto;
+    
+}
+.section1 {
+    display: block;
+    position: relative;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .block1 .intro{
+    color:white;
+}
+.section1 .block1 .intro .text1{
+    color: white;
+}
