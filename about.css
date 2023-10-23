@@ -37,6 +37,16 @@
     width: 400px;
 }
 
+.cards img:hover {
+    margin: 10px auto;
+    transition: all 0.5s;
+    height: 300px;
+    z-index: 1;
+}
+.cards .card-body:hover{
+    text-align: center;
+}
+
 
 .cont-carousels {
     justify-content: center;
