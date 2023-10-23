@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
+
 .housemodel{
+    position: relative;
     min-height: fit-content;
     min-width: 100%;
     background-color: antiquewhite;
@@ -14,6 +16,7 @@
     align-items: center;
     gap: 2em;    
 }
+
 .housemodel .border1{
     padding: 20px;
     border-top: solid 1px;
